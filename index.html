@@ -1,127 +1,149 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script defer src="https://umami.tools.togglecorp.com/script.js" data-website-id="6a67c13a-d1a0-4432-aa30-65d49cffbc74"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>The Orange Initiative</title>
-    <style>
-        body,
-        html {
-            padding: 0;
-            margin: 0;
-            background-color: #f2ecd8;
-            color: #212121;
-        }
-
-        body {
-            display: flex;
-            height: 100vh;
-            width: 100%;
-            background-size: cover;
-            background-position: center center;
-            font-family: 'Roboto', sans-serif;
-            overflow: auto;
-            text-align: center;
-        }
-        .left-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 24px;
-            align-items: center;
-            background-color: #E96F23;
-            height: 100%;
-            width: calc(160px + 10vh + 60vw);
-            color: #fff;
-            padding: 24px 72px;
-        }
-        .right-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            text-align: left;
-            flex-grow: 1;
-            gap: 12px;
-            height: 100%;
-            padding: 72px;
-        }
-        .construction {
-            font-size: 2rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-        }
-        .contact-text {
-            margin-bottom: 0.6rem;
-        }
-        .logo {
-            height: calc(160px + 10vh);
-        }
-        h1 {
-            margin-top: 0;
-            font-size: 2rem;
-            text-transform: uppercase;
-            border-top: 1px solid #fff;
-            padding: 12px 0;
-        }
-        .contact {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-        .contact-icon {
-            font-size: 1.6rem;
-        }
-        * {
-            box-sizing: border-box;
-        }
-        p, a {
-            font-size: 1.2rem;
-            margin: 2px 0;
-            text-decoration: none;
-            color: #212121;
-        }
-        @media only screen and (max-width: 720px) {
-            body {
-                flex-direction: column;
-            }
-            .left-content {
-                width: 100%;
-                height: 60vh;
-                flex-shrink: 0;
-            }
-            .right-content {
-                width: 100%;
-            }
-            .logo {
-                width: calc(160px + 20vw);
-                height: auto;
-            }
-        }
-    </style>
-</head>
-<body data-gr-c-s-loaded="true">
-    <div class="left-content">
-        <img class="logo" src="./logo.png" />
-        <h1>The Orange Initiative</h1>
-    </div>
-    <div class="right-content">
-        <p class="construction">Our website is currently under construction.</p>
-        <p class="contact-text">In the mean time, you can reach out to us at:</p>
-        <div class="contact">
-            <ion-icon name="call-outline" class="contact-icon"></ion-icon>
-            <a href="tel:+9779841252333">+977 9841252333</a>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script defer src="https://umami.tools.togglecorp.com/script.js" data-website-id="6a67c13a-d1a0-4432-aa30-65d49cffbc74"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+        <title>The Orange Initiative</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body data-gr-c-s-loaded="true">
+        <div class="navbar-section section">
+            <div class="section-content">
+                <div class="brand">
+                    <img class="main-logo" src="./icons/oi-logo.png" />
+                    <span class="title">
+                        The Orange Initiative
+                    </span>
+                </div>
+            </div>
         </div>
-        <!--
-        <div class="contact">
-            <ion-icon name="mail-outline" class="contact-icon"></ion-icon>
-            <a href="mailto:info@theorangeinitiative.org">info@theorangeinitiative.org</a>
+        <div class="introduction-section section">
+            <div class="section-content">
+                <div class="main-tagline">
+                    <div>Initiating a zest for change:</div>
+                    <div>A multisectoral approach to empower Nepal's communities.</div>
+                </div>
+                <div class="introduction">
+                    <div class="intro-text">
+                        Welcome to The Orange Initiative, dedicated to transforming communities and empowering lives across Nepal through
+                        sustainable programs addressing health, education, WASH, and more. Join us in creating a just, inclusive future where
+                        every individual can thrive, regardless of their background or circumstances.
+                    </div>
+                    <div class="intro-image">
+                        <img
+                            src="./images/introduction.png"
+                            alt=""
+                        />
+                        <div class="intro-image-gradient-overlay">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        -->
-    </div>
-</body>
+        <div class="mission-vision-section section">
+            <div class="section-content">
+                <div class="mission-vision-image">
+                    <img
+                        src="./images/mission-vision.png"
+                        alt=""
+                    />
+                    <div class="mission-vision-image-gradient-overlay">
+                    </div>
+                </div>
+                <div class="mission-vision">
+                    <div>
+                        <h2>Mission</h2>
+                        <div class="content">
+                            To enhance the well-being of communities in Nepal through sustainable programs and initiatives in the areas of health,
+                            food and nutrition, education, empowerment and livelihood, disaster response, climate change, WASH, child protection,
+                            the geriatric population, GBV, LGBTQI+, and human rights.
+                        </div>
+                    </div>
+                    <div>
+                        <h2>Vision</h2>
+                        <div class="content">
+                            To ensure the communities in Nepal live with dignity, equality, and justice, regardless of their background or circumstances.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sectors-section section">
+            <div class="section-content">
+                <h2 class="sectors-heading">Our Focus Area</h2>
+                <div class="content">
+                    <div class="sector-list">
+                        <div class="sector">
+                            <img
+                                class="sector-img"
+                                src="./icons/health.svg"
+                                alt=""
+                            />
+                            <h3>Health</h3>
+                        </div>
+                        <div class="sector">
+                            <img
+                                class="sector-img"
+                                src="./icons/nutrition.svg"
+                                alt=""
+                            />
+                            <h3>Food and Nutrition</h3>
+                        </div>
+                        <div class="sector">
+                            <img
+                                class="sector-img"
+                                src="./icons/education.svg"
+                                alt=""
+                            />
+                            <h3>Education</h3>
+                        </div>
+                        <div class="sector">
+                            <img
+                                class="sector-img"
+                                src="./icons/disaster-response.svg"
+                                alt=""
+                            />
+                            <h3>Empowerment</h3>
+                        </div>
+                        <div class="sector">
+                            <img
+                                class="sector-img"
+                                src="./icons/wash.svg"
+                                alt=""
+                            />
+                            <h3>WASH</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-section section">
+            <div class="section-content">
+                <div class="contact-tagline">
+                    Together, let's paint the future of Nepal in the vibrant hues of orange - a future filled with promise, possibility, and
+                    endless opportunity.
+                </div>
+                <div></div>
+                <div class="contact-details">
+                    Call us:
+                    <a href="tel:+9779841252333">
+                        +977 9841252333
+                    </a>
+                </div>
+                <div class="contact-details">
+                    Email:
+                    <a href="mailto:theorangeinitiativenepal@gmail.com">
+                        theorangeinitiativenepal@gmail.com
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
