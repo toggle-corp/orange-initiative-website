@@ -16,6 +16,11 @@
     --color-text-on-primary: var(--color-white);
 
     --font-family-primary: 'Roboto', sans-serif;
+
+    font-family: var(--font-family-primary);
+    font-size: 18px;
+    line-height: 1.75;
+    font-weight: 300;
 }
 
 body, html {
@@ -29,15 +34,11 @@ body, html {
 
 body {
     background-color: var(--color-background);
-    font-family: var(--font-family-primary);
     color: var(--color-text);
-    line-height: 1.75;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 @media screen and (max-width: 900px) {
-    body {
+    :root {
         font-size: 16px;
     }
 }
