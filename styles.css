@@ -296,16 +296,44 @@ a:hover {
 }
 
 .contact-section .section-content {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 4rem;
+}
+
+.contact-section .supported-by {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+    grid-column: 3;
+    gap: 0.6rem;
+}
+
+@media screen and (max-width: 720px) {
+    .contact-section .supported-by {
+        grid-column: auto;
+    }
+}
+
+
+.contact-section .partners {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.contact-section .partners .partner-logo {
+    width: 100px;
+    object-fit: contain;
+}
+
+.contact-section .partners .partner-logo .big {
+    height: 40px;
 }
 
 .contact-tagline {
     color: var(--color-primary);
-    text-align: center;
+    text-align: left;
     font-weight: 300;
     font-size: 1.2rem;
     line-height: 1.25;
