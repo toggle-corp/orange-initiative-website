@@ -1,0 +1,15 @@
+.report-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.report-section {
+    flex-grow: 1;
+}
+
+.booklet-iframe {
+    border: unset;
+    height: 80vh;
+    width: 100%;
+}

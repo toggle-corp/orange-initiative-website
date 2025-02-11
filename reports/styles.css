@@ -1,0 +1,55 @@
+.reports-body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.report {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.reports-body .reports-section {
+    background-color: unset;
+    flex-grow: 1;
+}
+
+.report-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: auto;
+}
+
+.report img {
+    height: 12rem
+}
+
+.report-details h3 {
+    line-height: 1.25;
+    font-weight: 900;
+}
+
+.report-details .description {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.report-actions {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 720px) {
+    .report {
+        flex-direction: column;
+    }
+
+    .report img {
+        width: 100%;
+        height: 20rem;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+
