@@ -8,6 +8,8 @@
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+    background-color: var(--color-eggshell);
+    padding: 2rem;
 }
 
 .reports-body .reports-section {
@@ -23,7 +25,7 @@
 }
 
 .report img {
-    height: 12rem
+    height: 14rem
 }
 
 .report-details h3 {
